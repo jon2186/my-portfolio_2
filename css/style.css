@@ -1,0 +1,234 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "TT Norms Pro";
+    src: url("/fonts/TTNormsPro-Regular.woff2");
+}
+
+body {
+    font-family: "TT Norms Pro", "Arial", sans-serif;
+}
+
+.container {
+    max-width: 1300px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background: #F2F2F2;
+}
+
+.header {
+    display: flex;
+}
+
+.photo {
+    width: 430px;
+    height: 430px;
+    object-fit: cover;
+    flex-shrink: 0;
+    border-radius: 30px;
+    margin-left: 142px;
+    margin-right: 40px;
+    margin-top: 140px;
+}
+
+.header_website {
+    height: 100px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 64px;
+    color: #000000;
+    margin-top: 140px;
+    margin-bottom: 30px;
+}
+
+.profession {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 64px;
+    color: #00A3FF;
+    margin: 0;
+}
+
+.motto {
+    font-style: normal;
+    font-weight: 450;
+    font-size: 30px;
+    line-height: 38px;
+    color: #000000;
+}
+
+.button {
+    width: 300px;
+    height: 60px;
+    background-color: #00A3FF;
+    border-style: none;
+    border-radius: 30px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 38px;
+    color: #FFFFFF;
+    padding: 0;
+}
+
+.icons_logo {
+    margin-top: 71px;
+}
+
+.icons_logo ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin: 0;
+}
+
+.icons_logo ul li {
+    margin-right: 52px;
+}
+
+.header_skills_top {
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 64px;
+    color: #000000;
+    margin-top: 0px;
+    margin-bottom: 60px;
+    padding-top: 190px;
+}
+
+.hard_skilss {
+    max-width: 854px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 30px;
+    column-gap: 10px;
+    align-items: center;
+}
+
+.hard_skilss span {
+    width: 468px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 51px;
+    color: #000000;
+    margin-left: 20px;
+}
+
+.header_skills_bottom {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 64px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.soft_skills {
+    max-width: 854px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 30px;
+    column-gap: 10px;
+    align-items: center;
+}
+
+.soft_skills span {
+    width: 468px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 51px;
+    color: #000000;
+    margin-left: 20px;
+}
+
+.ability h2 {
+    margin-top: 0;
+    margin-bottom: 60px;
+    padding-top: 228px;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 64px;
+    color: #000000;
+}
+
+.skill {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 65px;
+    row-gap: 60px;
+}
+
+.skill div {
+    width: 350px;
+    height: 210px;
+    background: #EDEBEB;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.skill div p {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 38px;
+    color: #0079BD;
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.my_projects h2 {
+    margin-top: 0;
+    margin-bottom: 60px;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 64px;
+    color: #000000;
+    padding-top: 296px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 126px;
+}
+
+.containers {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.containers div {
+    width: 350px;
+    height: 350px;
+    background: #D9D9D9;
+    border-radius: 30px;
+}
+
+.containers button {
+    width: 300px;
+    height: 60px;
+    background: #00A3FF;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 38px;
+    color: #FFFFFF;
+    border-style: none;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.card {
+    margin: 50px 65px 0px 65px;
+}
