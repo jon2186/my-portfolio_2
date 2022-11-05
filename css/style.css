@@ -232,3 +232,165 @@ body {
 .card {
     margin: 50px 65px 0px 65px;
 }
+
+@media (max-width: 1024px) {
+    .container {
+        max-width: 760px;
+    }
+
+    .profession {
+        margin-top: 120px;
+    }
+
+    .photo {
+        margin-right: 0;
+        margin-left: 24px;
+    }
+
+    .hard_skilss span,
+    .soft_skills span {
+        width: 298px;
+    }
+
+    .skill {
+        grid-template-columns: 1fr 1fr;
+        column-gap: 60px;
+    }
+
+    .containers div {
+        width: 200px;
+        height: 200px;
+    }
+
+    .containers button {
+        width: 200px;
+    }
+
+    .card {
+        margin: 50px 50px 0px 50px;
+    }
+}
+
+@media (max-width: 790px) {
+    .container {
+        max-width: 576px;
+    }
+
+    .photo {
+        width: 250px;
+        height: 250px;
+        margin-left: 0;
+    }
+
+    .hard_skilss span,
+    .soft_skills span {
+        width: 280px;
+        font-size: 26px;
+        line-height: 26px;
+        margin-left: 10px;
+    }
+
+    .scale {
+        width: 250px;
+    }
+
+    .skill div {
+        width: 250px;
+        height: 200px;
+    }
+
+    .skill div p {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+    .containers {
+        flex-direction: column;
+    }
+
+    .containers div {
+        width: 350px;
+        height: 350px;
+    }
+
+    .card {
+        margin: 0;
+    }
+
+    .containers button {
+        margin: 20px auto 20px auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        max-width: 90%;
+    }
+
+    .header {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .photo {
+        width: 300px;
+        height: 300px;
+    }
+
+    .header_website {
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    .profession,
+    .motto {
+        text-align: center;
+    }
+
+    .header div {
+        text-align: center;
+    }
+
+    .hard_skilss span,
+    .soft_skills span {
+        width: 185px;
+        font-size: 22px;
+        line-height: 10px;
+        margin-left: 0px;
+    }
+
+    .scale {
+        width: 180px;
+    }
+
+    .skill {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    .skill div {
+        width: 300px;
+        height: 250px;
+    }
+
+    .skill div p {
+        font-size: 26px;
+        line-height: 32px;
+    }
+
+    .ability h2 {
+        padding-top: 100px;
+    }
+
+    .my_projects h2 {
+        padding-top: 100px;
+    }
+
+    .cards {
+        align-items: center;
+    }
+}
